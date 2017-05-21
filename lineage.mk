@@ -26,9 +26,9 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := rolex
 PRODUCT_NAME := lineage_rolex
-PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := rolex
-PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Redmi 4A
+PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="santoni" \
