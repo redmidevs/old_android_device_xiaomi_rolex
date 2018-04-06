@@ -30,4 +30,10 @@ PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := rolex
 PRODUCT_MANUFACTURER := xiaomi
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE="santoni" \
+    PRODUCT_NAME="santoni" \
+    BUILD_FINGERPRINT="Xiaomi/rolex/rolex:7.1.2/N2G47H/8.3.29:user/release-keys" \
+    PRIVATE_BUILD_DESC="rolex-user 7.1.2 N2G47H 8.3.29 release-keys"
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
